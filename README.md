@@ -96,6 +96,4 @@ Once the application is running, you can access the interactive API documentatio
 - `model/`: Database models.
 - `db.py`: Database connection setup.
 
-## License
 
-[License Name] - See LICENSE file for details.
