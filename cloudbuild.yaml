@@ -1,0 +1,13 @@
+options:
+  logging: CLOUD_LOGGING_ONLY 
+
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [
+      'build',
+      '-t', 'us-central1-docker.pkg.dev/ancient-folio-462115-v5/backend/fastapi_testapp:$COMMIT_SHA',
+      '-f', 'Dockerfile',
+      '.'
+    ]
+    dir: 'FastAPI_Testapp'
+
