@@ -5,6 +5,8 @@
 ## Overview
 
 The Blaid AI Multi-Channel API is a robust backend service built with FastAPI that orchestrates a team of AI agents to manage Notion workspaces. It supports multi-channel interactions, allowing users to communicate with agents through both a web interface and WhatsApp. The system leverages OpenAI's GPT models to interpret user intent and perform complex tasks such as creating, modifying, and retrieving Notion pages, as well as managing comments and reminders.
+![Uploading Blaid AI Architech2.drawio (2).png…]()
+
 
 ## Key Features
 
@@ -95,5 +97,6 @@ Once the application is running, you can access the interactive API documentatio
 - `utils/`: Utility functions and logging configuration.
 - `model/`: Database models.
 - `db.py`: Database connection setup.
+
 
 
